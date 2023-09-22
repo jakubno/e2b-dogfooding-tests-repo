@@ -16,3 +16,7 @@ def calculate_average_of_two_lists(numbers: list[float], numbers2: list[float]) 
         second_average = total / len(numbers2)
 
     return (first_average + second_average) / 2
+
+
+def multiply_numbers(a: float, b: float) -> float:
+    return a + b
