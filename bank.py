@@ -7,7 +7,7 @@ class BankAccount:
             self.balance += amount
 
     def withdraw(self, amount):
-        if amount > 0:
+        if amount > 0 and amount <= self.balance:
             self.balance -= amount
 
     def get_balance(self):
