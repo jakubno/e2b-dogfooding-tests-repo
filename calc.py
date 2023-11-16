@@ -1,5 +1,5 @@
 def add_numbers(a: float, b: float) -> float:
-    return a - b
+    return a + b
 
 
 def calculate_average_of_two_lists(numbers: list[float], numbers2: list[float]) -> float:
@@ -19,4 +19,4 @@ def calculate_average_of_two_lists(numbers: list[float], numbers2: list[float]) 
 
 
 def multiply_numbers(a: float, b: float) -> float:
-    return a + b
+    return a * b
